@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+*.log
+.feedback_inbox/
+.cycle*
+.autopilot*
+.harness*
+.watchdog*
+/autopilot/
+/tools/contract-engine/
+*.claim.json
+.build_claim_held.json
+.current_cycle_registration.json
+build/
+dist/
+bin/
+tools/ahk2exe/
+*.spec
+
+# Test and environment caches
+.pytest_cache/
+.venv/
+venv/
+.env
+.coverage
+htmlcov/
+
+# Local credentials and certificates
+*.pfx
+*.pem
+*.key
+
+# Runtime and machine caches
+.encoder_cache.json
+.contract_engine_state.json
+.portable
+.ai-tasks-project
+release_manifest.json
+installer_manifest.json
+task-ledger.json
